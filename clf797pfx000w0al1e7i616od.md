@@ -149,6 +149,14 @@ console.log(str2 == str3);
 
 In the &lt;code 2.6&gt; here the two strings have been compared to each other and checked with each other.
 
+References :
+
+[Mozilla Strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).
+
+[GFG](https://www.geeksforgeeks.org/difference-between-and-equals-method-in-java/)
+
+[W3 Schools](https://www.w3schools.com/java/ref_string_equals.asp)
+
 Thank you for following the whole process.
 
 See you in the next blog related to something new, something that I’m also doing.
