@@ -16,16 +16,12 @@ After gaining enough knowledge I can talk about the problem that I faced the pro
 
 **JAVA**
 
-talking about java is always fun to me as it has so much to offer still it doesn't offer as much as C++, but you see from many perspectives but depends on you, do you like the syntax or not.
-
+Talking about java is always fun to me as it has so much to offer still it doesn't offer as much as C++, but you see from many perspectives but depends on you, do you like the syntax or not.
 We will be talking in terms of the string first.
-
 Talking about the difference in java the two:
 
 * That is `.equals()` is a method while `==` is an operator.
-    
 * `==` operators for reference comparison **address comparison** and `.equals()` method for **content comparison**.
-    
 
 ```java
 //code 1.0 
@@ -57,13 +53,9 @@ String name = "shashmit";
 In the code &lt;1.2&gt; as you can see the result that is produced is true in this case the method treats data inside the variable as the important key and compares the data rather than comparing the addresses.
 
 Few Points about Equals():
-
 * Cannot be used for primitive type
-    
 * To compare the content in a string it is used.
-    
 * Equals() can be overridden.
-    
 
 Woosh and we are done with java lets go to one of the most amazing languages for a new learner that is javascript.
 
@@ -72,14 +64,11 @@ Woosh and we are done with java lets go to one of the most amazing languages for
 If you think java was nothing when we talk about `==` in javascript we just not used two equals we use three to compare..yes it's kind of weird as it has it set of rules that we will talk about in the coming lines.
 
 * `===` - Strictly Equal
-    
 * `==` - Equal
-    
 
 **Strictly Equal**`===`
 
 The `===` operators follow **the Strictly equality comparison algorithm**, i.e., it doesn't do the type conversion of the operands before comparing their values and returns false even if the data type of the operands aren't the same.
-
 The `===` operator compares operands and returns *true* if both operands are of the same data type and have some value, otherwise, it returns *false*.
 
 ```javascript
@@ -92,7 +81,6 @@ console.log(a===b);//false
 ```
 
 In this &lt;code 2.0&gt; the first statement compares the two datatypes and concludes the overall statement.
-
 While in the other states, the data types are different..hence the conclusion is false.
 
 ```javascript
@@ -104,7 +92,6 @@ console.log(a===b);//false
 ```
 
 In this &lt;code 2.1&gt; the first statement compares the two data types by changing one type to the other and comparing it...hence it gives a true result.
-
 while in the other states the conversion is not taking place and hence two different types produce false.
 
 ```javascript
@@ -116,7 +103,6 @@ console.log(a==b);//true
 ```
 
 In this &lt;code 2.2&gt;, the first comparison is comparing two array-type strings without the array index which compares the address index of the two variables.
-
 While in the next statement, compares the array as it is by comparing it.
 
 **Equal**`==`
@@ -124,7 +110,6 @@ While in the next statement, compares the array as it is by comparing it.
 The `==` operator returns *true* if both operands are of the same data type and have the same value or if both are of different data types, but either of them can be converted to the data type of the other operand and have the same value. If both operands have different values, then it returns *false*.
 
 *What is type conversion?*
-
 The `==` operators *loosely* compare two operands, i.e., while comparing two operands, if both operands aren't of the same data type, then the operator tends to convert either of them into another operand's type and then compares their values.
 
 ```javascript
@@ -151,11 +136,7 @@ In the &lt;code 2.6&gt; here the two strings have been compared to each other an
 
 References :
 
-[Mozilla Strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).
-
-[GFG](https://www.geeksforgeeks.org/difference-between-and-equals-method-in-java/)
-
-[W3 Schools](https://www.w3schools.com/java/ref_string_equals.asp)
+[Mozilla Strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | [GFG](https://www.geeksforgeeks.org/difference-between-and-equals-method-in-java/) | [W3 Schools](https://www.w3schools.com/java/ref_string_equals.asp)
 
 Thank you for following the whole process.
 
